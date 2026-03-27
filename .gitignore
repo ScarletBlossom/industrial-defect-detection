@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+.venv/
+
+# Data & checkpoints
+checkpoints/*.pth
+data/train/
+data/val/
+data/test/
+
+# Logs
+logs/*.json
+logs/*.png
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
